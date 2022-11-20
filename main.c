@@ -10,7 +10,7 @@
 
 typedef unsigned int uint;
 
-void HardFault_Handler(unsigned int * hardfault_args,unsigned lr_value)
+void HardFault_Handler(unsigned int * hardfault_args,unsigned int lr_value)
 {
     
     unsigned int *stack_addr = NULL;
